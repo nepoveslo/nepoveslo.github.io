@@ -7,22 +7,25 @@
   <meta name="description" content="Семён Ефанов. Начинающий QA, студент СибГУТИ. Навыки, учебные проекты и немного архивных материалов.">
   <title>Семён Ефанов · QA-портфолио</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="desk.css">
   <script src="script.js" defer></script>
 </head>
 <body>
+  <div class="desk" aria-hidden="true">
+    <div class="desk-side desk-left"><div class="folder folder-left"></div><div class="loose-page page-left"><span class="paper-caption">АРХИВ / 42</span><i class="paper-lines"></i><span class="paper-stamp">ПРОВЕРЕНО</span></div><div class="paperclip"></div><div class="ink-mark"></div><div class="loose-page page-left-bottom"><i class="paper-lines"></i></div></div>
+    <div class="desk-side desk-right"><div class="loose-page page-right"><span class="paper-caption">ОПИСЬ</span><i class="paper-lines"></i></div><div class="folder folder-right"><span>МАТЕРИАЛЫ ДЕЛА</span></div><div class="loose-page page-right-bottom"><span class="paper-caption">ЛИСТ 02</span><i class="paper-lines"></i></div><div class="pen"></div><div class="inkwell"></div></div>
+  </div>
   <a class="skip" href="#main">К содержанию</a>
   <header class="header wrap">
-    <a class="brand" href="#" aria-label="В начало"><span aria-hidden="true">⚓︎</span> ЛИЧНОЕ ДЕЛО <b>№ 021</b></a>
-    <nav aria-label="Основная навигация"><a href="#about">Обо мне</a><a href="#work">Материалы</a><a href="#archive">Досье</a><a href="#contact">Контакты</a></nav>
+    <a class="brand" href="#" aria-label="В начало"><span aria-hidden="true">⚓︎</span> ЛИЧНОЕ ДЕЛО <b>№ 42</b></a>
+    <nav aria-label="Основная навигация"><a href="#about">Обо мне</a><a href="#materials">Материалы</a><a href="#archive">Архив</a><a href="#contact">Контакты</a></nav>
   </header>
   <main id="main" class="wrap">
     <section class="hero" aria-labelledby="name">
       <div class="hero-copy">
         <p class="eyebrow">НОВОСИБИРСК / QA-ПОРТФОЛИО</p>
         <h1 id="name">Семён<br>Ефанов<span class="period">.</span></h1>
-        <p class="role">Начинающий QA.<br>Ищу первую стажировку.</p>
-        <p class="intro">Учусь в СибГУТИ, разбираюсь в вебе<br class="desktop"> и проверяю, как всё работает.</p>
-        <a class="button" href="#work">Изучить материалы <span aria-hidden="true">↘</span></a>
+        <a class="button" href="#materials">Изучить материалы <span aria-hidden="true">↘</span></a>
         <p class="hero-note">Характер скверный. Проверки по делу.</p>
       </div>
       <figure class="hero-art">
@@ -35,7 +38,6 @@
       <div class="section-heading"><p class="eyebrow">01 / ПО СУЩЕСТВУ</p><h2 id="about-title">Обо мне</h2></div>
       <div class="about-body"><p class="lead">Хочу начать с ручного тестирования. Умею составлять чек-листы и тест-кейсы. На учебных проектах знакомлюсь с тем, что происходит между интерфейсом и API.</p>
         <div class="education"><span class="small-label">ОБРАЗОВАНИЕ</span><p>СибГУТИ · 2 курс<br><span>Информатика и вычислительная техника<br>Профиль «Высоконагруженные системы»</span></p></div>
-        <div class="certificate"><a href="documents/certificate.pdf" target="_blank" rel="noopener" aria-label="Открыть сертификат VK Testers в PDF"><img src="images/certificate.png" width="900" height="637" alt="Сертификат VK Education" loading="lazy"></a><p>VK Education · «Ручное тестирование с VK Testers» <span>2026 · 16 занятий · <a href="documents/certificate.pdf" target="_blank" rel="noopener">Сертификат PDF ↗</a></span></p></div>
       </div>
     </section>
 
@@ -51,21 +53,48 @@
     </section>
 
     <section id="work" class="section work" aria-labelledby="work-title">
-      <div class="wide-heading"><div><p class="eyebrow">03 / МАТЕРИАЛЫ ДЕЛА</p><h2 id="work-title">Практика</h2></div><span class="small-label">УЧЕБНЫЙ ПРОЕКТ</span></div>
+      <div class="wide-heading"><div><p class="eyebrow">03 / УЧЕБНАЯ ПРАКТИКА</p><h2 id="work-title">Практика</h2></div><span class="small-label">УЧЕБНЫЙ ПРОЕКТ</span></div>
       <article class="project">
         <div class="project-cover" aria-hidden="true"><span class="file-label">МАТЕРИАЛ № 01</span><div class="weather-mark">☁<span>↗</span></div><span class="cover-name">WEATHER<br>APP<span class="cover-rule"></span></span><span class="file-label">WEB / JAVASCRIPT / API</span></div>
         <div class="project-copy"><p class="eyebrow">РАЗРАБОТКА · УЧЕБНАЯ ПРАКТИКА</p><h3>Weather App</h3><p>Приложение для просмотра погоды по названию города. Учебная работа с интерфейсом и внешним API.</p><ul><li>Получение и отображение погодных данных.</li><li>Обработка пользовательского ввода и ошибок.</li><li>Индикация загрузки.</li></ul><p class="tech">HTML / CSS / JavaScript / OpenWeather API / Fetch</p><p class="source-note">Ссылка на исходный код появится после проверки актуального репозитория.</p></div>
       </article>
     </section>
 
-    <section id="archive" class="section archive" aria-labelledby="archive-title">
+    <section id="materials" class="section materials" aria-labelledby="materials-title">
+      <div class="section-heading"><p class="eyebrow">04 / ПРИОБЩЕНО К ДЕЛУ</p><h2 id="materials-title">Материалы</h2></div>
+      <div class="materials-body"><p class="materials-caption">Сертификаты и участие в событиях.</p>
+        <div class="certificate"><a href="documents/certificate.pdf" target="_blank" rel="noopener" aria-label="Открыть сертификат VK Testers в PDF"><img src="images/certificate.png" width="900" height="637" alt="Сертификат VK Education" loading="lazy"></a><p>VK Education · «Ручное тестирование с VK Testers» <span>2026 · 16 занятий · <a href="documents/certificate.pdf" target="_blank" rel="noopener">Сертификат PDF ↗</a></span></p></div>
+      </div>
+    </section>
+
+    <section id="archive" class="section personal-archive" aria-labelledby="archive-title">
+      <div class="section-heading"><p class="eyebrow">05 / ЛИЧНЫЕ СВЕДЕНИЯ</p><h2 id="archive-title">Архивное<br>дело</h2><p class="archive-hint">Совершенно не секретно.</p></div>
+      <dl class="archive-facts">
+        <div><dt>Полное имя</dt><dd>Ефанов Семён Евгеньевич</dd></div>
+        <div><dt>Дата рождения</dt><dd><time datetime="2005-06-13">13 июня 2005</time></dd></div>
+        <div><dt>Город</dt><dd>Новосибирск</dd></div>
+        <div><dt>Вне учёбы</dt><dd>Футбол, настольный теннис.<br>Компьютерные игры с детства.</dd></div>
+        <div><dt>Привычки</dt><dd>Поздно ложится спать.</dd></div>
+        <div><dt>Чувство юмора</dt><dd>Абсурдный юмор и каламбуры.</dd></div>
+      </dl>
+    </section>
+
+    <section id="dossier" class="section archive" aria-labelledby="dossier-title">
       <details>
-        <summary><div><p class="eyebrow">04 / НЕОБЯЗАТЕЛЬНО, НО ЛЮБОПЫТНО</p><h2 id="archive-title">Архивное дело</h2><p class="archive-hint">Личные сведения. Степень секретности: никакая.</p></div><span class="expand" aria-hidden="true">+</span></summary>
-        <div class="dossier"><a href="images/archive-dossier.png" data-image data-title="Архивное дело № 021" aria-label="Увеличить архивное дело"><img src="images/archive-dossier.png" width="1122" height="1402" alt="Архивное дело Семёна Ефанова, прозвище Шкафчик. Дата рождения 13 июня 2005. Новосибирск. Рост 178 см, вес 65 кг. Характер скверный. Привычка: поздно ложится спать. Умеет танцевать вальс. Штамп: подозрительно, но свой." loading="lazy"></a><p>Оригинал архивного листа. Нажми на изображение, чтобы увеличить.</p></div>
+        <summary><div><p class="eyebrow">06 / ПОРТРЕТ И ПРИМЕТЫ</p><h2 id="dossier-title">Досье</h2><p class="archive-hint">Внешность и краткая характеристика.</p></div><span class="expand" aria-hidden="true">+</span></summary>
+        <div class="dossier"><a href="images/dossier.png" data-image data-title="Досье · дело № 42" aria-label="Увеличить досье"><img src="images/dossier.png" width="1086" height="1448" alt="Досье. Семён Ефанов, он же Шкафчик. Родился в Сибири, там и остался. Глаза серые, волосы тёмно-коричневые. Рост 178 см, вес 65 кг, правша. Умеет танцевать вальс, но практического применения пока не нашёл. Характер скверный. Не женат." loading="lazy"></a><p>Нажми на лист, чтобы рассмотреть его поближе.</p></div>
       </details>
     </section>
 
-    <section id="contact" class="section contact" aria-labelledby="contact-title"><p class="eyebrow">05 / ДЛЯ СВЯЗИ</p><h2 id="contact-title">Открыт к стажировке.</h2><p>QA-стажёр / Junior QA · Новосибирск</p><p><a href="https://github.com/nepoveslo" target="_blank" rel="noopener">GitHub · @nepoveslo ↗</a></p></section>
+    <section id="contact" class="section contact" aria-labelledby="contact-title">
+      <p class="eyebrow">07 / НА СВЯЗИ</p><h2 id="contact-title">Где меня найти</h2>
+      <ul class="social-links">
+        <li><a href="https://t.me/nepovesIo" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.4 3.4 18 20.1c-.3 1.2-.9 1.5-1.9.9l-5.2-3.8-2.5 2.4c-.3.3-.5.5-1 .5l.4-5.3 9.7-8.8c.4-.4-.1-.6-.6-.3L4.9 13.3l-5.1-1.6c-1.1-.3-1.1-1.1.2-1.6L20 2.4c.9-.3 1.7.2 1.4 1z" transform="translate(1 0) scale(.95)"/></svg><span>Telegram<small>@nepovesIo</small></span></a></li>
+        <li><a href="https://github.com/nepoveslo" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.1c-3.12.68-3.78-1.33-3.78-1.33-.51-1.3-1.25-1.64-1.25-1.64-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.63 1.22 3.27.93.1-.73.39-1.22.71-1.5-2.49-.28-5.1-1.25-5.1-5.54 0-1.22.43-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.07-1.15 3.07-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.3-2.62 5.26-5.12 5.54.4.35.76 1.03.76 2.08v3.09c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8z"/></svg><span>GitHub<small>@nepoveslo</small></span></a></li>
+        <li><a href="https://steamcommunity.com/profiles/76561198881961016/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" class="steam-icon"><circle cx="12" cy="12" r="10.5"/><circle cx="15.9" cy="8.2" r="4"/><circle cx="15.9" cy="8.2" r="2.3"/><circle cx="7.5" cy="16" r="3"/><path d="m1.8 13 5.1 2.1m2.8-1.3 2.8-3.4m-2.7 7.1 5-5.3"/></svg><span>Steam<small>Профиль</small></span></a></li>
+        <li><a href="https://www.twitch.tv/nepovesio" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 1 1 6v16h6v2l4-2h4l7-7V1H4zm16 13-4 4h-4l-4 3v-3H4V3h16v11zM15 6h2v6h-2V6zm-5 0h2v6h-2V6z"/></svg><span>Twitch<small>@nepovesio</small></span></a></li>
+      </ul>
+    </section>
   </main>
   <footer class="wrap footer"><span>СЕМЁН ЕФАНОВ</span><span>Совершенно не секретно.</span><a href="#">Наверх ↑</a></footer>
   <dialog id="image-viewer" aria-labelledby="viewer-title"><div class="viewer-bar"><p id="viewer-title"></p><button type="button" id="close-viewer" aria-label="Закрыть изображение">Закрыть ×</button></div><div class="viewer-scroll"><img id="viewer-image" alt=""></div><a id="viewer-original" target="_blank" rel="noopener">Открыть оригинал ↗</a></dialog>
