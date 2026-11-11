@@ -6,9 +6,9 @@ main.wrap { box-shadow: 0 0 16px 3px #080e1855; }
 .hero { grid-template-columns: .75fr 1.25fr; }
 .hero-copy h1 { margin-bottom: 40px; }
 .desk { position: fixed; inset: 0; pointer-events: none; overflow: hidden; }
-@media (min-width: 1001px) {
+@media (min-width: 721px) {
   .desk {
-    background-image: linear-gradient(#101c2b42, #101c2b42), url('images/detective-desk.png');
+    background-image: linear-gradient(#101c2b42, #101c2b42), url('images/detective-desk.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,10 +39,14 @@ main.wrap { box-shadow: 0 0 16px 3px #080e1855; }
   .brand { font-size: 12px; }
 }
 @media (max-width: 1000px) {
-  .desk { display: none; }
   .materials, .personal-archive { gap: 30px; }
 }
+@media (min-width: 721px) and (max-width: 1000px) {
+  .wrap { width: calc(100% - 64px); padding-inline: 24px; }
+  .header { flex-wrap: wrap; padding-block: 20px; gap: 14px; }
+}
 @media (max-width: 720px) {
+  .desk { display: none; }
   .hero { grid-template-columns: minmax(0,1fr); }
   .hero-copy h1 { margin-bottom: 28px; }
   .materials, .personal-archive { grid-template-columns: minmax(0,1fr); gap: 27px; }
