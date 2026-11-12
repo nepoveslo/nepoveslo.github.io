@@ -10,7 +10,7 @@ document.querySelectorAll('[data-image]').forEach(link => {
     viewerImage.src = link.href;
     viewerImage.alt = link.querySelector('img').alt;
     document.querySelector('#viewer-title').textContent = link.dataset.title;
-    document.querySelector('#viewer-original').href = link.href;
+    document.querySelector('#viewer-original').href = link.dataset.original || link.href;
     viewer.showModal();
     document.body.classList.add('viewing');
     document.querySelector('.viewer-scroll').scrollTop = 0;
