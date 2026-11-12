@@ -18,6 +18,13 @@ main.wrap { box-shadow: 0 0 16px 3px #080e1855; }
 .materials, .personal-archive { display: grid; grid-template-columns: 1fr 2fr; gap: 55px; }
 .materials-caption { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
 .materials .certificate { padding-top: 18px; }
+.study-work { padding-bottom: 26px; }
+.study-work .eyebrow { margin-bottom: 13px; }
+.study-work h3 { font: 400 28px/1.25 Georgia, serif; margin-bottom: 18px; }
+.study-work p:not(.eyebrow) { color: var(--muted); font-size: 15px; }
+.study-work .document-link { display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: 10px 20px; margin: 8px 0 15px; color: var(--paper); font-size: 14px; }
+.document-link span { color: var(--muted); font: 11px 'Courier New', monospace; }
+.study-work p.source-note { font-size: 12px; margin: 0; }
 .archive-facts { margin: 0; }
 .archive-facts>div { display: grid; grid-template-columns: 150px 1fr; gap: 22px; padding: 15px 0; border-bottom: 1px solid var(--line); }
 .archive-facts>div:first-child { padding-top: 0; }
