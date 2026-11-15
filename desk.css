@@ -17,6 +17,10 @@ main.wrap { box-shadow: 0 0 16px 3px #080e1855; }
 
 .about-body .lead { font-size: 1.125rem; margin-bottom: 1em; }
 .about-body .lead:last-child { margin-bottom: 0; }
+.skill-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 36px; }
+.skill-list ul { margin: 0; padding-left: 17px; color: var(--muted); font-size: 15px; }
+.skill-list li + li { margin-top: 10px; }
+.skill-list li::marker { color: var(--paper); }
 .materials, .personal-archive { display: grid; grid-template-columns: 1fr 2fr; gap: 55px; }
 .materials-caption { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
 .materials .certificate { padding-top: 18px; }
@@ -49,6 +53,10 @@ main.wrap { box-shadow: 0 0 16px 3px #080e1855; }
 }
 @media (max-width: 1000px) {
   .materials, .personal-archive { gap: 30px; }
+  .skills { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 600px) {
+  .skill-list { grid-template-columns: minmax(0, 1fr); gap: 26px; }
 }
 @media (min-width: 721px) and (max-width: 1000px) {
   .wrap { width: calc(100% - 64px); padding-inline: 24px; }
